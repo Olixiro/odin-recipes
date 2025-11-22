@@ -1,0 +1,1 @@
+This odin-recipes project is to test the basic html concepts and html structure learned so far.
