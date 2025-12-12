@@ -1,34 +1,57 @@
 body {
     margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 70px;
     border: 2px solid red;
 }
 
-ul {
+.recipes ul {
     list-style: none;
-    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
 }
 
-li {
-    display: inline-block;
-    padding: 10px;
-    border: 2px solid red;
+.recipes li {
+    padding: 20px;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
-    color: rgb(62, 155, 191);
+    color: rgb(0, 0, 0);
     border: 2px solid red;
 }
 
-.divTitle {
+.title {
     display: block;
-    background-color: darkgray;
+    background-color: rgb(92, 164, 232);
     padding: 10px 0px 10px 20px;
     border: 2px solid red;
 }
 
-.divRecipes {
-    display: inline-block;
+.recipes {
     background-color: white;
     border: 2px solid red;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background-color: rgb(92, 164, 232);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(92, 164, 232);
+    }
