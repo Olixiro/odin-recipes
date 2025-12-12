@@ -9,12 +9,13 @@ body {
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 20px 0;
+    padding: 60px 0;
 }
 
 .recipes li {
     padding: 20px;
     margin: 0;
+    text-align: center;
 }
 
 a {
@@ -51,3 +52,7 @@ nav {
     text-align: center;
     background-color: rgb(92, 164, 232);
     }
+
+.recipes img {
+    height: 100px;
+}
