@@ -1,8 +1,7 @@
 body {
     margin: 0px;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 70px;
-    border: 2px solid red;
 }
 
 .recipes ul {
@@ -21,19 +20,16 @@ body {
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    border: 2px solid red;
 }
 
 .title {
     display: block;
     background-color: rgb(92, 164, 232);
     padding: 10px 0px 10px 20px;
-    border: 2px solid red;
 }
 
 .recipes {
     background-color: white;
-    border: 2px solid red;
 }
 
 nav {
